@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yongjySignUpProfile.SignUp"
+             Title="Sign Up"
+             >
+    <VerticalStackLayout>
+        <HorizontalStackLayout Spacing="10" Margin="10" VerticalOptions="Center">
+            <Label Text="Username:" FontAttributes="Bold" VerticalOptions="Center" />
+            <Entry x:Name="UsernameEntry" 
+                   WidthRequest="270"
+                   HorizontalTextAlignment="Start" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10" Margin="10" VerticalOptions="Center">
+            <Label Text="Email:" FontAttributes="Bold" VerticalOptions="Center" />
+            <Entry x:Name="EmailEntry" Keyboard="Email" 
+                   WidthRequest="320"
+                   HorizontalTextAlignment="Start"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10" Margin="10" VerticalOptions="Center">
+            <Label Text="Password:" FontAttributes="Bold" VerticalOptions="Center" />
+            <Entry x:Name="PasswordEntry" IsPassword="True" 
+                   WidthRequest="275"
+                   HorizontalTextAlignment="Start"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Spacing="10" Margin="10" VerticalOptions="Center">
+            <Label Text="Confirm Password:" FontAttributes="Bold" FontSize="12" VerticalOptions="Center" />
+            <Entry x:Name="ConfirmPasswordEntry" IsPassword="True" 
+                   WidthRequest="220"
+                   HorizontalTextAlignment="Start"/>
+        </HorizontalStackLayout>
+        
+        <Button Text="Submit" Clicked="OnSubmitClicked" HorizontalOptions="Fill" />
+    </VerticalStackLayout>
+</ContentPage>

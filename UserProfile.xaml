@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="yongjySignUpProfile.UserProfile"
+             Title="">
+    <VerticalStackLayout>
+        <Label Text="Congrats on Signing Up!"
+               FontSize="Title"
+               FontAttributes="Bold"
+               Margin="0,40,0,0"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+        <Label x:Name="LblUsername"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center" />
+        <Label x:Name="LblEmail"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="Center" />
+
+        <Button Text="Sign Out"
+                Clicked="OnBackToSignUpClicked"
+                HorizontalOptions="Fill" 
+                Margin="15"/>
+    </VerticalStackLayout>
+</ContentPage>
