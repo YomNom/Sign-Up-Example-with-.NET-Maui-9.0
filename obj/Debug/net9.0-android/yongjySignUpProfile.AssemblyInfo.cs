@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yongjySignUpProfile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d6c220c4d40b54cd4bf83133ca27647d396756d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("yongjySignUpProfile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yongjySignUpProfile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

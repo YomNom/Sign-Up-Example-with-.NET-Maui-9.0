@@ -948,3 +948,4 @@ C:\Maui Apps\yongjySignUpProfile\obj\Debug\net9.0-android\stamp\_ConvertResource
 C:\Maui Apps\yongjySignUpProfile\obj\Debug\net9.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Maui Apps\yongjySignUpProfile\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Maui Apps\yongjySignUpProfile\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Maui Apps\yongjySignUpProfile\obj\Debug\net9.0-android\yongjySignUpProfile.sourcelink.json
